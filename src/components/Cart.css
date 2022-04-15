@@ -1,0 +1,24 @@
+.cart{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    /* flex: 1; */
+    background-color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.item__img{
+    max-width: 200px;
+    object-fit: contain;
+    margin-left: 10px;
+}

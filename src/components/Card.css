@@ -1,0 +1,41 @@
+.card{
+    width: 300px;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #ccc;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.card__h1{
+    color: rgb(55, 55, 170);
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__text{
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.card__desc{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.add{
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #111;
+}
+
+.card__img{
+    object-fit: cover;
+    max-height: 40px;
+    
+}
